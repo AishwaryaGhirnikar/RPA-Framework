@@ -1,3 +1,4 @@
+
 *** Settings ***    
 Library     RPA.FileSystem
 Library     RPA.HTTP
@@ -27,6 +28,3 @@ Apply python script
     FOR   ${img}  IN    @{images}                                       #Loop through sample_images
         ${new_img}=  sign_language.sign_language   ${img}               #Calling of python script into robot code
     END
-
-
-
