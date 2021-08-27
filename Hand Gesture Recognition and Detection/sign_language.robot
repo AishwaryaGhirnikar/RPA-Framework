@@ -9,7 +9,7 @@ ${code_path}    C:/Users/Admin/Desktop/my tasks/sign_language.py
 
 *** Test Cases ***
 Save sample images
-    Copy Directory   ${img_path}  sample_images
+    Copy Directory   ${img_path}  sample_images      #Copy sample images into robo
 
 *** Test Cases ***
 Save python code
