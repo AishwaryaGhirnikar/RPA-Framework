@@ -23,7 +23,7 @@ Library     sign_language.py
 Apply python script
     ${images}=     List Files In Directory      sample_images
     Log   ${images}
-    Create Directory   C:/Users/Admin/Robots/Bot Games 1/Output
+    Create Directory   C:/Users/Admin/Robots/Sign_language/Output
     FOR   ${img}  IN    @{images}
         ${new_img}=  sign_language.sign_language   ${img}
     END
